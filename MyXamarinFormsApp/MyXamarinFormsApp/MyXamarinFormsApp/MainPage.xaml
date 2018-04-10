@@ -8,6 +8,6 @@
         <Label Text="Xamarin.Forms" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large"/>
         <Entry Placeholder="Introduce tu usuario" Keyboard="Email"/>
         <Entry IsPassword="True" Text="Xamarin.Forms"/>
-        <Button Text="Iniciar sesión" BackgroundColor="DarkCyan" TextColor="White" FontAttributes="Italic"/>
+        <Button Text="Iniciar sesión" BackgroundColor="DarkCyan" TextColor="White" FontAttributes="Italic"/>    
     </StackLayout>
 </ContentPage>
