@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyXamarinFormsApp"
+             x:Class="MyXamarinFormsApp.MainPage">
+    <StackLayout Spacing="10" Padding="30" BackgroundColor="LightGray">
+        <Label Text="El arte de programar con" HorizontalOptions="Center" FontSize="Medium"/>
+        <Label Text="Xamarin.Forms" HorizontalOptions="Center" FontAttributes="Bold" FontSize="Large"/>
+        <Entry Placeholder="Introduce tu usuario" Keyboard="Email"/>
+        <Entry IsPassword="True" Text="Xamarin.Forms"/>
+        <Button Text="Iniciar sesión" BackgroundColor="DarkCyan" TextColor="White" FontAttributes="Italic"/>
+    </StackLayout>
+</ContentPage>
