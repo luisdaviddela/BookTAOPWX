@@ -13,7 +13,7 @@ namespace MyXamarinFormsApp
 		{
 			InitializeComponent();
 
-			MainPage = new MyXamarinFormsApp.CP_MyCSharpView();
+			MainPage = new G_Grid1();
 		}
 
 		protected override void OnStart ()
