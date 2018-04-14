@@ -21,6 +21,6 @@
         <Label Text="Posición [2.0]" Grid.Row="2" Grid.Column="0" BackgroundColor="Yellow"/>
         <Label Text="Posición [2.1]" Grid.Row="2" Grid.Column="1" BackgroundColor="Yellow"/>
         <!--TERCERA COLUMNA PARA LA ÚLTIMA FILA-->
-        <Label Text="Posición [2.1]" Grid.Row="2" Grid.Column="3" BackgroundColor="DarkCyan"/>
+        <Label Text="Posición [2.3]" Grid.Row="2" Grid.Column="3" BackgroundColor="DarkCyan"/>
     </Grid>
 </ContentPage>
