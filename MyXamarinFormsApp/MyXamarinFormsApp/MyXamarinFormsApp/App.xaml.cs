@@ -19,7 +19,8 @@ namespace MyXamarinFormsApp
 
             //-----------------PÁGINAS
             //MainPage = new P_TabbedPage();
-            MainPage = new P_TabbedPage2();
+            //MainPage = new P_TabbedPage2();
+            MainPage = new P_ContentPage();
         }
 
 		protected override void OnStart ()
