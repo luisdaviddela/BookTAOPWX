@@ -13,8 +13,13 @@ namespace MyXamarinFormsApp
 		{
 			InitializeComponent();
 
+            //-----------------GRIDS
             //MainPage = new G_Grid1();
-            MainPage = new G_Grid2();
+            //MainPage = new G_Grid2();
+
+            //-----------------PÁGINAS
+            //MainPage = new P_TabbedPage();
+            MainPage = new P_TabbedPage2();
         }
 
 		protected override void OnStart ()

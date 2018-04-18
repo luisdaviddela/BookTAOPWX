@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MyXamarinFormsApp"
+             x:Class="MyXamarinFormsApp.P_TabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="TabbedPage 1">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Da clic al botón"/>
+                <Button Text="Click!"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="TabbedPage 2">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Click en el Switch"/>
+                <Switch/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="TabbedPage 3">
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Escribe algo"/>
+                <Entry Text="Introducir texto"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>
