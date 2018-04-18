@@ -10,17 +10,16 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        
-        <Label Text="Posición [0.0]" Grid.Row="0" Grid.Column="0" BackgroundColor="Orange"/>
-        <Label Text="Posición [0.1]" Grid.Row="0" Grid.Column="1" BackgroundColor="ForestGreen"/>
-        <Label Text="Posición [1.0]" Grid.Row="1" Grid.Column="0" BackgroundColor="Blue" />
-        <Label Text="Posición [1.1]" Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow"/>
-        <Label Text="Posición [2.0]" Grid.Row="2" Grid.Column="0" BackgroundColor="Yellow"/>
-        <Label Text="Posición [2.1]" Grid.Row="2" Grid.Column="1" BackgroundColor="Yellow"/>
+
+        <Button Text="Posición [0.0]"  Grid.Row="0" Grid.Column="0" BackgroundColor="Orange"/>
+        <Button Text="Posición [0.1]" Grid.Row="0" Grid.Column="1" BackgroundColor="ForestGreen"/>
+        <Button Text="Posición [1.0]" Grid.Row="1" Grid.Column="0" BackgroundColor="Blue"/>
+        <Button Text="Posición [1.1]" Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow"/>
+        <Button Text="Posición [2.0]" Grid.Row="2" Grid.Column="0" BackgroundColor="DarkCyan"/>
+        <Button Text="Posición [2.1]" Grid.Row="2" Grid.Column="1" BackgroundColor="LightCyan"/>
         <!--TERCERA COLUMNA PARA LA ÚLTIMA FILA-->
-        <Label Text="Posición [2.3]" Grid.Row="2" Grid.Column="3" BackgroundColor="DarkCyan"/>
+        <Label Text="Posición [2.2]" Grid.Row="2" Grid.Column="2" BackgroundColor="DarkCyan"/>
     </Grid>
 </ContentPage>

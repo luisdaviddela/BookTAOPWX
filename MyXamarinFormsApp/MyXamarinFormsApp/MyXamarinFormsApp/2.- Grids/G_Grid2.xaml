@@ -33,7 +33,7 @@
             </Grid>
             <Grid Grid.Row="0" Grid.Column="2" BackgroundColor="#0B3861">
                 <StackLayout>
-                    <Label Text="Contactos"/>
+                    <Label Text="BLOG" TextColor="White"/>
                     
                 </StackLayout>
             </Grid>

@@ -13,8 +13,9 @@ namespace MyXamarinFormsApp
 		{
 			InitializeComponent();
 
-			MainPage = new G_Grid2();
-		}
+            //MainPage = new G_Grid1();
+            MainPage = new G_Grid2();
+        }
 
 		protected override void OnStart ()
 		{
