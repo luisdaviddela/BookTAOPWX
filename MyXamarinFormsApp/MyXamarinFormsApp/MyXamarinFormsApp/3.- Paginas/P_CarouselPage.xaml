@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyXamarinFormsApp.P_CarouselPage">
+    <ContentPage>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="CarouselPage" FontSize="Medium" HorizontalOptions="Center" />
+            <Label Text="The Xamarin.Forms CarouselPage is a page that users can swipe from side to side to navigate through pages of content"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="CarouselPage" FontSize="Medium" HorizontalOptions="Center" />
+            <Label Text="like a gallery. This article demonstrates how to use a CarouselPage to navigate through a collection of pages."/>
+        </StackLayout>
+    </ContentPage>
+</CarouselPage>
