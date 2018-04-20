@@ -21,7 +21,8 @@ namespace MyXamarinFormsApp
             //MainPage = new P_ContentPage();
             //MainPage = new P_TabbedPage();
             //MainPage = new P_TabbedPage2();
-            MainPage = new P_CarouselPage();
+            //MainPage = new P_CarouselPage();
+            MainPage = new P_CarouselPage2();
         }
 
 		protected override void OnStart ()
