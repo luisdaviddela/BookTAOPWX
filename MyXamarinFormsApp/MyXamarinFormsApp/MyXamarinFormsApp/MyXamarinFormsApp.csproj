@@ -49,5 +49,8 @@
     <EmbeddedResource Update="5.- NuGet Packages\NuG_Microcharts.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="5.- NuGet Packages\NuG_Microcharts2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

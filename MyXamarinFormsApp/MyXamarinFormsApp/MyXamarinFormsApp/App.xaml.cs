@@ -25,7 +25,8 @@ namespace MyXamarinFormsApp
             //MainPage = new P_CarouselPage2();
 
             //-----------------NuGet Packages
-            MainPage = new NuG_Microcharts();
+            //MainPage = new NuG_Microcharts();
+            MainPage = new NuG_Microcharts2();
         }
 
 		protected override void OnStart ()
