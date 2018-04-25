@@ -22,7 +22,10 @@ namespace MyXamarinFormsApp
             //MainPage = new P_TabbedPage();
             //MainPage = new P_TabbedPage2();
             //MainPage = new P_CarouselPage();
-            MainPage = new P_CarouselPage2();
+            //MainPage = new P_CarouselPage2();
+
+            //-----------------NuGet Packages
+            MainPage = new NuG_Microcharts();
         }
 
 		protected override void OnStart ()
