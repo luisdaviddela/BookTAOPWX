@@ -22,21 +22,23 @@ namespace MyXamarinFormsApp
                 {
                     Label = "El arte",
                     ValueLabel = "100",
-                    Color = SKColor.Parse("#aed6f1")
+                    Color = SKColor.Parse("#aed6f1"),
+                    TextColor = SKColor.Parse("#aed6f1")
                 },new Entry(300)
                 {
                     Label = "de programar",
                     ValueLabel = "300",
-                    Color = SKColor.Parse("#5dade2")
+                    Color = SKColor.Parse("#5dade2"),
+                    TextColor =SKColor.Parse("#2e86c1")
                 },
                 new Entry(200)
                 {
                     Label = "con Xamarin",
                     ValueLabel = "200",
-                    Color = SKColor.Parse("#2e86c1")
+                    Color = SKColor.Parse("#2e86c1"),
+                    TextColor =SKColor.Parse("#2e86c1")
                 }
             };
-
             return data;
         }
 		public NuG_Microcharts ()

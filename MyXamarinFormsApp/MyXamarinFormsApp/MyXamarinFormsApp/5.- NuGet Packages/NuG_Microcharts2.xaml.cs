@@ -44,11 +44,10 @@ namespace MyXamarinFormsApp
             grafica1.Chart = new BarChart { Entries = ObtenerGrafica() };
             grafica2.Chart = new LineChart { Entries = ObtenerGrafica() };
             grafica3.Chart = new DonutChart { Entries = ObtenerGrafica() };
-            grafica5.Chart = new PieChart { Entries = ObtenerGrafica() };
-            grafica6.Chart = new PointChart { Entries = ObtenerGrafica() };
-            grafica7.Chart = new PointChart { Entries = ObtenerGrafica() };
-            grafica8.Chart = new RadarChart { Entries = ObtenerGrafica() };
-            grafica9.Chart = new RadialGaugeChart { Entries = ObtenerGrafica() };
+            grafica4.Chart = new PieChart { Entries = ObtenerGrafica() };
+            grafica5.Chart = new PointChart { Entries = ObtenerGrafica() };
+            grafica6.Chart = new RadarChart { Entries = ObtenerGrafica() };
+            grafica7.Chart = new RadialGaugeChart { Entries = ObtenerGrafica() };
         }
 	}
 }

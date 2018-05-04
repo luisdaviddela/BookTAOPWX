@@ -12,8 +12,7 @@
             <forms:ChartView x:Name="grafica5" HeightRequest="300"/>
             <forms:ChartView x:Name="grafica6" HeightRequest="300"/>
             <forms:ChartView x:Name="grafica7" HeightRequest="300"/>
-            <forms:ChartView x:Name="grafica8" HeightRequest="300"/>
-            <forms:ChartView x:Name="grafica9" HeightRequest="300"/>
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>
