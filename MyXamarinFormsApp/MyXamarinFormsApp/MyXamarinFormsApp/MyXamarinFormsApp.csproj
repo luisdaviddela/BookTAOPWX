@@ -54,8 +54,4 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="6.- SQLite\Tables\" />
-  </ItemGroup>
 </Project>
