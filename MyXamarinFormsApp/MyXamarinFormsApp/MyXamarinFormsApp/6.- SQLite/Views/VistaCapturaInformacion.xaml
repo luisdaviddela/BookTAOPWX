@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyXamarinFormsApp.VistaCapturaInformacion">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="30">
+            <Label Text="Nombre"/>
+            <Entry Placeholder="Nombre completo"/>
+            <Label Text="Genero"/>
+            <Picker/>
+            <Button Text="Guardar información"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

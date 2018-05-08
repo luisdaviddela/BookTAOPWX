@@ -26,7 +26,8 @@ namespace MyXamarinFormsApp
 
             //-----------------NuGet Packages
             //MainPage = new NuG_Microcharts();
-            MainPage = new NuG_Microcharts2();
+            //MainPage = new NuG_Microcharts2();
+            MainPage = new VistaCapturaInformacion();
         }
 
 		protected override void OnStart ()

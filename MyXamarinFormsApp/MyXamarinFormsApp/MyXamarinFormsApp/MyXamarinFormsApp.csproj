@@ -53,5 +53,8 @@
     <EmbeddedResource Update="5.- NuGet Packages\NuG_Microcharts2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="6.- SQLite\Views\VistaCapturaInformacion.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
