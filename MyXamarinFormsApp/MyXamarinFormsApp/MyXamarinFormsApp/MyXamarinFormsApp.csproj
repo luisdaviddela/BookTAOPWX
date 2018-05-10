@@ -56,5 +56,8 @@
     <EmbeddedResource Update="6.- SQLite\Views\VistaCapturaInformacion.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="6.- SQLite\Views\VistaConsultaInformacion.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

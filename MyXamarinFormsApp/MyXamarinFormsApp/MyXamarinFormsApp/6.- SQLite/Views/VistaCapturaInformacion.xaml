@@ -9,6 +9,8 @@
             <Label Text="Genero"/>
             <Picker x:Name="PickerGenero" />
             <Button Text="Guardar información" Clicked="btn_guardar"/>
+            <Button Text="Ver registros" Clicked="btn_CambiarPagina"/>
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>

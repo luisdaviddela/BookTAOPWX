@@ -15,16 +15,28 @@ namespace MyXamarinFormsApp
         private SQLiteAsyncConnection _conn;
         public VistaCapturaInformacion()
         {
+            _conn = DependencyService.Get<ISQLiteDB>().GetConnection();
             InitializeComponent();
             PickerGenero.Items.Add("Masculino");
             PickerGenero.Items.Add("Femenino");
-            _conn = DependencyService.Get<ISQLiteDB>().GetConnection();
         }
         private void btn_guardar(object sender, EventArgs e)
         {
             string GeneroValue = PickerGenero.Items[PickerGenero.SelectedIndex];
             var datos = new Tabla_Informacion { Nombre = NombreEntry.Text , Genero = GeneroValue };
-            _conn.InsertAsync(GeneroValue);
+            try
+            {
+                _conn.InsertAsync(datos);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+        private void btn_CambiarPagina(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new VistaConsultaInformacion());
         }
     }
 }
