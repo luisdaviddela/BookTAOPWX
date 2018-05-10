@@ -5,10 +5,10 @@
     <ScrollView>
         <StackLayout Padding="20" Spacing="30">
             <Label Text="Nombre"/>
-            <Entry Placeholder="Nombre completo"/>
+            <Entry x:Name="NombreEntry" Placeholder="Nombre completo"/>
             <Label Text="Genero"/>
-            <Picker/>
-            <Button Text="Guardar información"/>
+            <Picker x:Name="PickerGenero" />
+            <Button Text="Guardar información" Clicked="btn_guardar"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

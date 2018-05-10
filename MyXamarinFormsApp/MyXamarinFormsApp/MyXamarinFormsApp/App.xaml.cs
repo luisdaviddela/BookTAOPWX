@@ -27,6 +27,8 @@ namespace MyXamarinFormsApp
             //-----------------NuGet Packages
             //MainPage = new NuG_Microcharts();
             //MainPage = new NuG_Microcharts2();
+            
+            //------------ Almacenamiento SQLite
             MainPage = new VistaCapturaInformacion();
         }
 
