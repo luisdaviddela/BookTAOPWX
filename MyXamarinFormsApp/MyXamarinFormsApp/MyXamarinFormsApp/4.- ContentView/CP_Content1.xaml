@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:view ="clr-namespace:MyXamarinFormsApp"
+             x:Class="MyXamarinFormsApp.CP_Content1">
+    <ScrollView>
+        <StackLayout>
+            <Label HorizontalOptions="Center" Text="El arte de programar con"/>
+            <Label HorizontalOptions="Center" Text="Xamarin" FontAttributes="Bold"/>
+            <view:CV_View1></view:CV_View1>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
