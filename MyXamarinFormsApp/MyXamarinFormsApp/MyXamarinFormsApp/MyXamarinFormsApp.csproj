@@ -62,9 +62,8 @@
     <EmbeddedResource Update="4.- ContentView\CP_Content1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="7.- Imagenes\" />
+    <EmbeddedResource Update="7.- Imagenes\ImagenesView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

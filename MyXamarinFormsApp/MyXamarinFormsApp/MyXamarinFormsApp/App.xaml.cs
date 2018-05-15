@@ -24,6 +24,9 @@ namespace MyXamarinFormsApp
             //MainPage = new P_CarouselPage();
             //MainPage = new P_CarouselPage2();
 
+            //------------ CONTENT PAGE / CONTENTVIEW
+            //MainPage = new CP_Content1();
+
             //-----------------NuGet Packages
             //MainPage = new NuG_Microcharts();
             //MainPage = new NuG_Microcharts2();
@@ -32,8 +35,7 @@ namespace MyXamarinFormsApp
             //MainPage = new NavigationPage(new VistaCapturaInformacion());
             //MainPage = new VistaConsultaInformacion();
 
-            //------------ CONTENT PAGE PRUEBA
-            MainPage = new CP_Content1();
+            MainPage = new ImagenesView();
 
         }
 
