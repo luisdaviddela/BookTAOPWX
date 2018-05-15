@@ -132,4 +132,16 @@
       <Name>MyXamarinFormsApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xamarin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\csharp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dotnet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fsharp.png" />
+  </ItemGroup>
 </Project>
