@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyXamarinFormsApp.ImagenesView">
     <ScrollView>
-        <Image Source=""></Image>
+        <Image Source="csharp.png"></Image>
     </ScrollView>
 </ContentPage>
