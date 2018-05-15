@@ -34,8 +34,10 @@ namespace MyXamarinFormsApp
             //------------ Almacenamiento SQLite
             //MainPage = new NavigationPage(new VistaCapturaInformacion());
             //MainPage = new VistaConsultaInformacion();
-
-            MainPage = new ImagenesView();
+            
+            //------------ Imagenes
+            //MainPage = new ImagenesView();
+            MainPage = new ImagenesGrid();
 
         }
 
