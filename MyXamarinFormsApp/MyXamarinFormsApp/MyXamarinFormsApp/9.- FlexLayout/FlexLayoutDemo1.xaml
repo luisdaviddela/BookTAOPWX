@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Column Row"
              x:Class="MyXamarinFormsApp.FlexLayoutDemo1">
     <FlexLayout Direction="Column">
         <BoxView BackgroundColor="Blue" FlexLayout.Grow="1"/>
         <BoxView BackgroundColor="Orange" FlexLayout.Grow="1"/>
+        <FlexLayout Direction="Row" FlexLayout.Grow="1">
+            <BoxView BackgroundColor="LawnGreen" FlexLayout.Grow="1"/>
+            <BoxView BackgroundColor="PaleVioletRed" FlexLayout.Grow="1"/>
+        </FlexLayout>
     </FlexLayout>
+    
 </ContentPage>
