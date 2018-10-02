@@ -40,8 +40,11 @@ namespace MyXamarinFormsApp
             //MainPage = new ImagenesGrid();
             
             //------------ Imagenes
+            //MainPage = new NavigationPage(new Pagina1());
+            
 
-            MainPage = new NavigationPage(new Pagina1());
+            //------------ Imagenes
+            MainPage = new NavigationPage(new FlexLayoutDemo1());
 
         }
 
