@@ -43,8 +43,9 @@ namespace MyXamarinFormsApp
             //MainPage = new NavigationPage(new Pagina1());
             
 
-            //------------ Imagenes
-            MainPage = new NavigationPage(new FlexLayoutDemo1());
+            //------------ FLexLayout
+            MainPage = new NavigationPage(new TabbedFlex());
+            
 
         }
 
