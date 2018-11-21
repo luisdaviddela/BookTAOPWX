@@ -83,5 +83,8 @@
     <EmbeddedResource Update="9.- FlexLayout\FlexLayoutDemo2.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="FlexLayotuDemo3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

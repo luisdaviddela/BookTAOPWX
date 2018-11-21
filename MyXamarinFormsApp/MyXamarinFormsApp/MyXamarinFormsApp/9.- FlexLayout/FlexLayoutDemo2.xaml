@@ -5,7 +5,7 @@
              x:Class="MyXamarinFormsApp.FlexLayoutDemo2">
     <FlexLayout Direction="Column">
         <FlexLayout Direction="Column" FlexLayout.Grow="1">
-            <BoxView BackgroundColor="Green" FlexLayout.Grow="1"/>
+            <BoxView BackgroundColor="Green" />
             <BoxView BackgroundColor="White"/>
             <BoxView BackgroundColor="Red"/>
         </FlexLayout>

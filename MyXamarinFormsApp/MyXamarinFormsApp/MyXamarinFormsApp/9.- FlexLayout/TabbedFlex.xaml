@@ -4,6 +4,7 @@
             xmlns:local="clr-namespace:MyXamarinFormsApp"
              x:Class="MyXamarinFormsApp.TabbedFlex">
   <!--Pages can be added as references or inline-->
+    <local:FlexLayotuDemo3></local:FlexLayotuDemo3>
     <local:FlexLayoutDemo2></local:FlexLayoutDemo2>
     <local:FlexLayoutDemo1></local:FlexLayoutDemo1>
 </TabbedPage>
